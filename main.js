@@ -2050,7 +2050,7 @@ async function main() {
 			} catch (e) {}
 			
 			try {
-				if (["invite.cam","invitecamera.com"].includes(getParentHostname())){
+				if (["invite.cam","invite.remotevm.ir"].includes(getParentHostname())){
 					session.iFramesAllowed = false;
 					console.warn("For security and privacy purposes, please note that you will not be allowed to use CSS injection together with IFRAMES.");
 				} else if ((window !== window.top) || window.obsstudio) {
@@ -2091,7 +2091,7 @@ async function main() {
 				const cssDomain = cssUrlObj.hostname;
 			
 				try {
-					if (["invite.cam","invitecamera.com"].includes(getParentHostname())){
+					if (["invite.cam","invite.remotevm.ir"].includes(getParentHostname())){
 						session.iFramesAllowed = false;
 						console.warn("For security and privacy purposes, please note that you will not be allowed to use CSS injection together with IFRAMES.");
 					} else if ((window.location.hostname === cssDomain) || window.location.hostname.endsWith("."+cssDomain) || (window !== window.top) || window.obsstudio) {
@@ -2124,7 +2124,7 @@ async function main() {
 				};
 			} else {
 				try {
-					if (["invite.cam","invitecamera.com"].includes(getParentHostname())){
+					if (["invite.cam","invite.remotevm.ir"].includes(getParentHostname())){
 						console.warn("For security and privacy purposes, please note that you will not be allowed to use CSS injection together with IFRAMES.");
 						session.iFramesAllowed = false;
 					} else if ((window !== window.top) || window.obsstudio) {
@@ -2228,7 +2228,7 @@ async function main() {
 			const jsDomain = jsUrlObj.hostname;
 			let allow = false;
 			try {
-				if (["invite.cam","invitecamera.com"].includes(getParentHostname())){
+				if (["invite.cam","invite.remotevm.ir"].includes(getParentHostname())){
 					console.error("For security and privacy purposes, Javascript injection using Invite Cam must be consented to.");
 					if (!session.cleanOutput){
 						allow = await confirmAlt("This link wishes to inject third-party Javascript ⚠️\n\nIf you trust the link, click OK. Otherwise, click Cancel.", true);
@@ -2273,7 +2273,7 @@ async function main() {
 		try {
 			let allow = false;
 			try {
-				if (["invite.cam","invitecamera.com"].includes(getParentHostname())){
+				if (["invite.cam","invite.remotevm.ir"].includes(getParentHostname())){
 					console.error("For security and privacy purposes, Javascript injection using Invite Cam must be consented to.");
 					if (!session.cleanOutput){
 						allow = await confirmAlt("This link wishes to inject third-party Javascript ⚠️\n\nIf you trust the link, click OK. Otherwise, click Cancel.", true);
