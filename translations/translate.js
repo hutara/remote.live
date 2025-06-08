@@ -2,7 +2,7 @@ function downloadTranslation(filename, trans = {}) {
     const textDoc = JSON.stringify(trans, null, 2);
     const hiddenElement = document.createElement('a');
     hiddenElement.href = `data:text/html,${encodeURIComponent(textDoc)}`;
-    hiddenElement.target = '_blank';
+    hiddenElement.target = '_fa';
     hiddenElement.download = `${filename}.json`;
     hiddenElement.click();
     return trans;
