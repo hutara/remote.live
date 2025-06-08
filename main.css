@@ -492,6 +492,11 @@ a {
   text-align: center; /* این خط برای وسط‌چین کردن اضافه شد */
 }
 
+.infoblob li {
+  display: block; /* این خط برای اطمینان از وسط‌چین شدن آیتم‌های لیست اضافه شد */
+  text-align: center; /* این خط مشکل چپ‌چین بودن را برطرف می‌کند */
+}
+
 .infoblob a:link {
 	color: var(--a-lighter-link);
 }
