@@ -488,6 +488,9 @@ a {
 .directorContainer a:active {
 	color: var(--a-lighter-active);
 }
+.infoblob {
+  text-align: center; /* این خط برای وسط‌چین کردن اضافه شد */
+}
 
 .infoblob a:link {
 	color: var(--a-lighter-link);
