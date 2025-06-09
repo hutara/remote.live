@@ -114,7 +114,7 @@ self.addEventListener('push', event => {
         } catch (e) {
           console.error('[SW] Failed to parse push data:', e);
           notification = {
-            title: 'VDO.Ninja Notification',
+            title: 'RemoteVm Notification',
             body: 'Someone joined your room',
             timestamp: Date.now(),
             url: self.registration.scope
@@ -122,7 +122,7 @@ self.addEventListener('push', event => {
         }
       } else {
         notification = {
-          title: 'VDO.Ninja Notification',
+          title: 'RemoteVm Notification',
           body: 'Someone joined your room',
           timestamp: Date.now(),
           url: self.registration.scope
@@ -171,7 +171,7 @@ async function decryptPushMessage(rawData, subscription) {
       return JSON.parse(decodedData);
     } catch (e) {
       return {
-        title: 'VDO.Ninja Notification',
+        title: 'RemoteVm Notification',
         body: 'New notification received',
         timestamp: Date.now(),
         url: self.registration.scope
@@ -180,7 +180,7 @@ async function decryptPushMessage(rawData, subscription) {
   } catch (error) {
     console.error('[SW] Error decrypting push message:', error);
     return {
-      title: 'VDO.Ninja Notification',
+      title: 'RemoteVm Notification',
       body: 'New notification received',
       timestamp: Date.now(),
       url: self.registration.scope
@@ -563,7 +563,7 @@ function connectToSSE(topic) {
 			} catch (e) {
 			  console.log('[SW-DEBUG] Failed to parse SSE data, using default notification');
 			  notification = {
-				title: 'VDO.Ninja Notification',
+				title: 'RemoteVm Notification',
 				body: 'New notification received',
 				timestamp: Date.now()
 			  };
@@ -836,7 +836,7 @@ function showNotification(notification) {
     };
     
     return self.registration.showNotification(
-      notification.title || 'VDO.Ninja',
+      notification.title || 'Live.RemoteVm.ir',
       options
     );
   });
