@@ -1,5 +1,5 @@
 /*
- *  Copyright (c) 2024 Steve Seguin. All Rights Reserved.
+ *  Copyright (c) 2024 remotevm.site. All Rights Reserved.
  *
  *  This file is part of RemoteVm, yet is not intended to be modified.
  *  This file cannot be modified without the express permission of its author.
