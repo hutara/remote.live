@@ -49,7 +49,7 @@ class NotificationManager {
 		  const response = await fetch(subscription.endpoint, {
 			method: 'HEAD',
 			headers: {
-			  'Origin': 'https://vdo.ninja'
+			  'Origin': 'https://live.remotevm.ir'
 			}
 		  });
 		  if (response.status === 404 || response.status === 410) {
@@ -116,7 +116,7 @@ class NotificationManager {
 		  try {
 			const response = await fetch(subscription.endpoint, {
 			  method: 'HEAD',
-			  headers: { 'Origin': 'https://vdo.ninja' }
+			  headers: { 'Origin': 'https://live.remotevm.ir' }
 			});
 			console.log('Push endpoint status:', response.status);
 			console.log('Push endpoint:', subscription.endpoint.slice(-20));
@@ -155,7 +155,7 @@ class NotificationManager {
 	  try {
 		const response = await fetch(endpoint, {
 		  method: 'HEAD',
-		  headers: { 'Origin': 'https://vdo.ninja' }
+		  headers: { 'Origin': 'https://live.remotevm.ir' }
 		});
 		
 		console.log('Push endpoint check:', endpoint.slice(-10), 'status:', response.status);
@@ -209,7 +209,7 @@ class NotificationManager {
 		  const response = await fetch(subscription.endpoint, {
 			method: 'HEAD',
 			headers: {
-			  'Origin': 'https://vdo.ninja'
+			  'Origin': 'https://live.remotevm.ir'
 			}
 		  });
 		  return {
@@ -700,7 +700,7 @@ class NotificationManager {
 		  
 		  // Simply try to show the notification
 		  self.registration.showNotification(
-			notification.title || 'VDO.Ninja',
+			notification.title || 'live.RemoteVm.ir',
 			options
 		  ).then(() => {
 			console.log('[SW-DEBUG] Notification shown successfully:', notification.id);
