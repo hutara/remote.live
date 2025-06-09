@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StreamDeck + VDO.Ninja Mixer - Quick Setup Guide</title>
+    <title>StreamDeck + RemoteVm Mixer - Quick Setup Guide</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -253,13 +253,13 @@
 <body>
     <div class="container">
         <header>
-            <h1>StreamDeck + VDO.Ninja Mixer</h1>
+            <h1>StreamDeck + RemoteVm Mixer</h1>
             <p class="subtitle">Professional control made simple - no MIDI required!</p>
         </header>
 
         <div class="highlight-box">
-            <h2 style="margin-bottom: 15px;">🎥 Welcome to VDO.Ninja Control!</h2>
-            <p>Tired of limited control in other streaming platforms? VDO.Ninja's API lets you create a professional control setup using your Elgato StreamDeck. Switch between layouts, control cameras, manage guests - all with simple HTTP GET requests!</p>
+            <h2 style="margin-bottom: 15px;">🎥 Welcome to RemoteVm Control!</h2>
+            <p>Tired of limited control in other streaming platforms? RemoteVm's API lets you create a professional control setup using your Elgato StreamDeck. Switch between layouts, control cameras, manage guests - all with simple HTTP GET requests!</p>
         </div>
 
         <div class="step-container">
@@ -268,11 +268,11 @@
                 <h3>Generate Your API Key</h3>
             </div>
             <div class="step-content">
-                <p>First, choose a unique API key. This key links your StreamDeck commands to your VDO.Ninja mixer session. It should be hard for others to guess.</p>
+                <p>First, choose a unique API key. This key links your StreamDeck commands to your RemoteVm mixer session. It should be hard for others to guess.</p>
                 <div class="code-block">Your API Key: <span class="important">YOUR_UNIQUE_API_KEY</span> (e.g., MySecretMixerKey2025)</div>
                 <div class="tip-box">
                     <span class="tip-icon">💡</span>
-                    <strong>Tip:</strong> Make your API key memorable for you but secure. You'll need to use this exact same key in both VDO.Ninja and your StreamDeck button configurations. It can be any combination of letters and numbers that you make up.
+                    <strong>Tip:</strong> Make your API key memorable for you but secure. You'll need to use this exact same key in both RemoteVm and your StreamDeck button configurations. It can be any combination of letters and numbers that you make up.
                 </div>
             </div>
         </div>
@@ -280,10 +280,10 @@
         <div class="step-container">
             <div class="step-header">
                 <span class="step-number">2</span>
-                <h3>Open VDO.Ninja Mixer with API Enabled</h3>
+                <h3>Open RemoteVm Mixer with API Enabled</h3>
             </div>
             <div class="step-content">
-                <p>Open your VDO.Ninja Mixer page in your browser, adding your API key as a URL parameter. Replace `YOUR_UNIQUE_API_KEY` with the key you chose in Step 1:</p>
+                <p>Open your RemoteVm Mixer page in your browser, adding your API key as a URL parameter. Replace `YOUR_UNIQUE_API_KEY` with the key you chose in Step 1:</p>
                 <div class="code-block">https://vdo.ninja/mixer?api=YOUR_UNIQUE_API_KEY</div>
                 <p>If your mixer URL already has other parameters (e.g., `?room=MyRoom`), add the API key with an ampersand (`&`):</p>
                 <div class="code-block">https://vdo.ninja/mixer?room=MyRoom&api=YOUR_UNIQUE_API_KEY</div>
@@ -332,7 +332,7 @@
                 <p>If a parameter like `target` or `value` is not needed for a specific command, it's often represented by `null` in the URL path. <span class="important">Do not use double slashes (//) if a middle parameter is `null`. Always include `null` as part of the path.</span></p>
 
                 <h4 style="margin-top: 30px;">Layout Controls (Defaults)</h4>
-                <p>Assign these URLs to Stream Deck "Website" actions to switch VDO.Ninja Mixer layouts. Remember to replace `YOUR_UNIQUE_API_KEY`.</p>
+                <p>Assign these URLs to Stream Deck "Website" actions to switch RemoteVm Mixer layouts. Remember to replace `YOUR_UNIQUE_API_KEY`.</p>
                 <div class="layout-showcase">
                     <div class="layout-card">
                         <div class="layout-visual">
@@ -377,7 +377,7 @@
                 </div>
 
                 <h4 style="margin-top: 40px;">Essential Controls (Self)</h4>
-                <p>These commands control your own VDO.Ninja instance (the one with the `?api=` parameter). The `target` is `null` as these actions apply to the VDO.Ninja instance itself.</p>
+                <p>These commands control your own Remotevm instance (the one with the `?api=` parameter). The `target` is `null` as these actions apply to the VDO.Ninja instance itself.</p>
                 <table class="command-table">
                     <tr>
                         <th>Button Label (Suggestion)</th>
