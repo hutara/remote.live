@@ -38384,7 +38384,7 @@ async function requestBasicPermissions(constraint = { video: true, audio: true }
 									if (window.obsstudio) {
 										warnUser("Permissions denied.\n\nTo access the camera or microphone from within OBS, please refer to:\n<a href='https://docs.vdo.ninja/guides/share-webcam-from-inside-obs'>docs.vdo.ninja/guides/share-webcam-from-inside-obs</a>.", false, false);
 									} else if (ChromiumVersion && !session.mobile) {
-										warnUser("<h1>مجوزهای دوربین/میکروفون رد شد</h1>\nلطفاً مطمئن شوید که مجوزهای میکروفون/دوربین را در مرورگر خود فعال کرده‌اید, such as like:\n\n<img src='./media/permissions_chrome.jpg' style='max-height:50vh;' />\n\nFor further help on how to resolve this issue, please refer to:\n\n<a target='_blank' href='https://docs.vdo.ninja/common-errors-and-known-issues/enable-camera-microphone-permissions'>https://docs.vdo.ninja/common-errors-and-known-issues/enable-camera-microphone-permissions</a>.", false, false);
+										warnUser("<h1>مجوزهای دوربین/میکروفون رد شد</h1>\nلطفاً مطمئن شوید که مجوزهای میکروفون/دوربین را در مرورگر خود فعال کرده‌اید, such as like:\n\n<img src='./media/permissions_chrome.jpg' style='max-height:50vh;' />\n\nFor further help on how to resolve this issue, please refer to:\n\n<a target='_blank' href='https://about.remotevm.ir/'>https://about.remotevm.ir/</a>.", false, false);
 									} else if (Firefox && session.mobile) {
 										warnUser(
 											"<h3>Camera/mic permission denied</h3>\nPlease allow mic/camera access.\n\n\
@@ -38395,7 +38395,7 @@ async function requestBasicPermissions(constraint = { video: true, audio: true }
 											false
 										);
 									} else {
-										warnUser("Permission access to the camera or microphone was denied.\n\nPlease ensure you have allowed the mic/camera permissions in your browser.\n\nFor guides on how to resolve this issue, please refer to:\n\n<a target='_blank' href='https://docs.vdo.ninja/common-errors-and-known-issues/enable-camera-microphone-permissions'>https://docs.vdo.ninja/common-errors-and-known-issues/enable-camera-microphone-permissions</a>.", false, false);
+										warnUser("Permission access to the camera or microphone was denied.\n\nPlease ensure you have allowed the mic/camera permissions in your browser.\n\nFor guides on how to resolve this issue, please refer to:\n\n<a target='_blank' href='https://about.remotevm.ir'>https://about.remotevm.ir</a>.", false, false);
 									}
 								}, 1);
 							}
