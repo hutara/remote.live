@@ -1,13 +1,11 @@
 <html lang="fa" dir="rtl">
-	<head>		
-	    	<!-- کدهای اضافه شده برای فونت فارسی -->
+	<head>
 	    	<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
 	    	<style>
 		        body, button, input, select, label, h2, h3, h4, span, div, p, a, li {
 	            	font-family: 'Vazirmatn', sans-serif !important;
 	        	}
-	    	</style>
-		
+		</style>
 		<script>
  		if (!window.location.href.includes("proxy")) {
     		window.location.href += (window.location.search ? "&" : "?") + "proxy";
@@ -117,7 +115,7 @@
 			</div>
 			<div id="head5" class="hidden"></div>
 			<div id="head3" style="display: inline-block;" class="hidden">
-				<span style="color: #888;" id="copythisurl" tabindex="1" > &nbsp; 
+				<span style="color: #888fff;" id="copythisurl" tabindex="1" > &nbsp; 
 					<span data-translate="copy-this-url">Copy this URL into an OBS "Browser Source"</span> <i style="color: #CCC;" class="las la-long-arrow-alt-right"></i> &nbsp; 
 				</span>
 			</div>
@@ -412,7 +410,7 @@
 									<li>Disabling video sharing between guests will improve performance</li>
 									<li>Invite only guests to the room that you trust.</li>
 									<li>The "Recording" option is considered experimental.</li>
-									<li><a href="https://params.vdo.ninja" style="color:black;"><u>Advanced URL parameters</u></a> are available to customize rooms.</li>
+									<li><a href="https://about.remotevm.ir/docs/" style="color:black;"><u>Advanced URL parameters</u></a> are available to customize rooms.</li>
 								</span>
 							</ul>
 						</span>
@@ -999,8 +997,8 @@
 				<i style="margin-top:30px;font-size:600%;overflow:hidden;" class="largeDarkIcon las la-blender"></i>
 			</div>
 			
-			<div id="container-14" class="column columnfade pointer card hidden" style="overflow: hidden;" onclick="window.location = 'https://versus.cam';">
-				<h2><span data-translate="try-out-versus-cam">Multi-Stream Monitor</span></h2>
+			<div id="container-14" class="column columnfade pointer card hidden" style="overflow: hidden;" onclick="window.location = 'https://cam.remotevm.ir';">
+				<h2><span data-translate="try-out-cam.remotevm">Multi-Stream Monitor</span></h2>
 				<i style="margin-top:30px;font-size:600%;overflow:hidden;" class="largeDarkIcon las la-gamepad"></i>
 			</div>
 			
@@ -1021,7 +1019,7 @@
 
 			</div>
 			
-			<div id="container-11" class="column columnfade pointer card hidden" style="overflow: hidden;" onclick="window.location = 'https://about.remotevm.ir/';">
+			<div id="container-11" class="column columnfade pointer card hidden" style="overflow: hidden;" onclick="window.location = 'https://Remotevm.site/stream';">
 				<h2><span data-translate="get-the-native-app">Remote Vm</span></h2>
 				<i style="margin-top:30px;font-size:600%;overflow:hidden;" class="largeDarkIcon las la-mobile"></i>
 				<div class="container-inner">
@@ -1088,7 +1086,7 @@
 							
 							<br />
 							<i>
-								<a href="https://about.remotevm.ir/" title="For a list of common or known issues, click here" target="_blank"><span style="color: red;">Known issues:</span></a>
+								<a href="https://docs.vdo.ninja/common-errors-and-known-issues/known-issues" title="For a list of common or known issues, click here" target="_blank"><span style="color: red;">Known issues:</span></a>
 							</i>
 							<br />
 							<li>
@@ -1104,9 +1102,9 @@
 							<br />
 							<br />
 							<h3>
-							   🛠 For support, join the <a href="https://discord.gg/T4xpQVv" target="_blank">Discord <i class="lab la-discord"></i></a> or see the <a href="https://www.reddit.com/r/VDONinja/" target="_blank">sub-reddit <i class="lab la-reddit-alien"></i></a>. The <a href="https://about.remotevm.ir/" target="_blank">documentation is here</a> and my personal email is <i>steve@seguin.email</i>
+							   🛠 For support, join the <a href="https://discord.gg/T4xpQVv" target="_blank">Discord <i class="lab la-discord"></i></a> or see the <a href="https://www.reddit.com/r/VDONinja/" target="_blank">sub-reddit <i class="lab la-reddit-alien"></i></a>. The <a href="https://docs.vdo.ninja/" target="_blank">documentation is here</a> and my personal email is <i>steve@seguin.email</i>
 							</h3> 
-							<a href='https://about.remotevm.ir/' target='_blank'>
+							<a href='https://docs.vdo.ninja/steves-helper-apps/native-mobile-app-versions' target='_blank'>
 						</span>
 					</div>
 				</center>
@@ -1148,11 +1146,11 @@
 						<li>OBS will see a guest's video in high-quality; the default video bitrate is 2500kbps. Setting higher bitrates will improve motion.</li>
 						<li>VP8 is typically the default video codec, but using &codec=vp9 or &codec=h264 as a URL in OBS can help to reduce corrupted video puke issues.</li>
 						<li>&stereo=2 can be added to guests to turn off audio effects, such as echo cancellation and noise-reduction.</li>
-						<li>https://invite.remotevm.ir is a free service provided that can help obfuscuate the URL parameters of an invite link given to guests.</li>
+						<li>https://invite.cam is a free service provided that can help obfuscuate the URL parameters of an invite link given to guests.</li>
 						<li>Adding &showonly=SOME_OBS_VIRTUALCAM to the guest invite links allows for only a single video to be seen by the guests; this can be output of the OBS Virtual Camera for example</li>
 						<br />
 						
-						For advanced URL options and parameters, <a href="https://about.remotevm.ir/">see the Wiki.</a>
+						For advanced URL options and parameters, <a href="https://docs.vdo.ninja/advanced-settings">see the Wiki.</a>
 					</span>
 				</div>
 			</div>
@@ -1403,7 +1401,7 @@
 						  <input type="checkbox" data-param="" id="obfuscate_director_1" onchange="updateLink(1,this);">
 						  <span class="slider"></span>
 						</label>
-						<span data-translate="obfuscate-link">Obfuscate with invite.remotevm.ir</span>
+						<span data-translate="obfuscate-link">Obfuscate with Invite.cam</span>
 					</div>
 				</div>
 			
@@ -1532,8 +1530,8 @@
 						</div>
 					</div>
 				</div>
-				<a href="https://params.vdo.ninja" style="color:#888;" target="_blank" >
-					<div style="display: block;float:right;font-size:70%;z-index:30;bottom:6px;right:10px;position:relative;color:#d8d8d8;" ><span data-translate="learn-more-about-params">Learn more about URL parameters at </span><span style="text-decoration: underline;">params.vdo.ninja</span>
+				<a href="https://about.remotevm.ir/docs/" style="color:#888;" target="_blank" >
+					<div style="display: block;float:right;font-size:70%;z-index:30;bottom:6px;right:10px;position:relative;color:#d8d8d8;" ><span data-translate="learn-more-about-params">Learn more about URL parameters at </span><span style="text-decoration: underline;">About.RemoteVm.ir/docs</span>
 					</div>
 				</a>
 			</div>
@@ -2940,7 +2938,7 @@
 			// session.audiobitrate // int in kbps
 			// session.view // "xxxx" ; the stream ID or a list of Stream IDs to Connect to. Not the same as &noaudio/&novideo. Set to "" (empty) if you don't wish to connect to any.
 			// session.remote // See docs, but allows for remote stats monitoring and remote focus/zoom control
-			// session.optimize  // Whether to optimize invisible scenes in OBS. See about.remotevm.ir. Setting to 0 will pause the video/audio when not visible in OBS
+			// session.optimize  // Whether to optimize invisible scenes in OBS. See docs.vdo.ninja. Setting to 0 will pause the video/audio when not visible in OBS
 			// session.disableOBS // If true, will disable any OBS-specific events/functions.
 			// session.noaudio // False by default, otherwise specify a list [] of stream IDs to allow. Listing none allows no incoming audio streams
 			// session.novideo // False by default, otherwise specify a list [] of stream IDs to allow. Listing none allows no incoming video streams
@@ -2976,7 +2974,7 @@
 			// session.mediamtx = "youdomain.com:443"; // Your hosted MediaMTX SFU domain. Assumes HTTPS-enabled.
 			// session.GDRIVE_CLIENT_ID = "877199999934-67tq62xxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com"; // get your own id/key from Google Cloud
 			// session.GDRIVE_API_KEY = 'AINNNNNNNNNNNNNNN-39s99999999999999999'; // lets you upload to google drive if self hosting.
-			// session.decrypted = session.decodeInvite("U2FsdGVkX1+d58DFIHoO3EQZSuX86ch4PqW2ouztnJ0="); // get a code from invite.remotevm.ir
+			// session.decrypted = session.decodeInvite("U2FsdGVkX1+d58DFIHoO3EQZSuX86ch4PqW2ouztnJ0="); // get a code from invite.cam
 			// session.hidehome = true; // If used, 'hide home' will make the landing page inaccessible, along with hiding a few go-home elements.
 			// if ("42" != prompt("enter the password")){document.body.innerHTML = "";window.location.href = "";} // if you want a low-effort password for the site
 			
