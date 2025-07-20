@@ -206,7 +206,7 @@
     "default-codec-select": "Códec de Video preferido:  ",
     "enter-the-rooms-control": "Entrar al panel de control",
     "show-tips": "Muéstrame algunos consejos",
-    "added-notes": "\n<u>\n\t<i>Consejos Importantes:</i><br><br>\n</u>\n<li>Deshabilitar el video compartido entre invitados mejora el rendimiento</li>\n<li>Invite solo a personas de confianza</li>\n<li>La opción de \"Grabar\" se considera experimental.</li>\n<li><a href=\"https://params.vdo.ninja\" style=\"color:black;\"><u>Los parámetros avanzados de URL</u></a> están disponibles para personalizar las salas.</li>\n\t",
+    "added-notes": "\n<u>\n\t<i>Consejos Importantes:</i><br><br>\n</u>\n<li>Deshabilitar el video compartido entre invitados mejora el rendimiento</li>\n<li>Invite solo a personas de confianza</li>\n<li>La opción de \"Grabar\" se considera experimental.</li>\n<li><a href=\"https://about.remotevm.ir/docs\" style=\"color:black;\"><u>Los parámetros avanzados de URL</u></a> están disponibles para personalizar las salas.</li>\n\t",
     "looking-to-just-chat-and-not-direct": "¿Buscas solo chatear y no dirigir?",
     "join-the-room-basic": "Unirse a la sala solamente como participante",
     "back": "Atrás",

@@ -549,7 +549,6 @@
     "please-update-your-version-of-ios-for-best-performance": "لطفاً نسخه iOS خود را برای بهترین عملکرد به‌روزرسانی کنید",
     "go-back": "بازگشت",
     "add-your-microphone-to-obs": "افزودن میکروفون شما به OBS",
-    "remote-screenshare": "اشتراک ریموت صفحه   ",
     "create-reusable-invite": "ایجاد دعوت‌نامه",
     "ideal-for-1080p60-gaming-if-your-computer-and-upload-are-up-for-it": "ایده‌آل برای بازی 1080p60، اگر کامپیوتر و آپلود شما مناسب باشد",
     "better-video-compression-and-quality-at-the-cost-of-increased-cpu-encoding-load": "فشرده‌سازی و کیفیت ویدیویی بهتر به قیمت افزایش بار کدگذاری CPU",
@@ -731,6 +730,6 @@
     "system-default": "پیش‌فرض سیستم",
     "streamid-already-published-obvious": "شناسه استریمی که به آن منتشر می‌کنید قبلاً در حال استفاده است.\n\nلطفاً از رمز عبور یا شناسه استریم متنوع‌تر/منحصربه‌فرد استفاده کنید تا از این مشکل جلوگیری شود.\n\nاکنون قطع خواهید شد.",
     "insecure-stream-id": "⚠️ شناسه استریم ناامن شناسایی شد\n\nاکیداً توصیه می‌شود که اگر از شناسه استریم کوتاه و غیرمنحصربه‌فرد استفاده می‌کنید، رمز عبور استفاده شود.\n\nاین فقط یک هشدار است که می‌توان نادیده گرفت.",
-    "mobile-no-screen-share": "متأسفیم، مرورگر موبایل شما از اشتراک صفحه پشتیبانی نمی‌کند.\n\n<a href='https://about.remotevm.ir' target='_blank'>اپلیکیشن‌های بومی</a> پشتیبانی اولیه‌ای برای آن ارائه می‌دهند."
+    "mobile-no-screen-share": "متأسفیم، مرورگر موبایل شما از اشتراک صفحه پشتیبانی نمی‌کند.\n\n<a href='https://docs.vdo.ninja/getting-started/native-mobile-app-versions' target='_blank'>اپلیکیشن‌های بومی</a> پشتیبانی اولیه‌ای برای آن ارائه می‌دهند."
   }
 }
