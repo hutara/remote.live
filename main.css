@@ -26,7 +26,7 @@
 	--lighttheme-4: #527aa3; /* primary */
 	--lighttheme-5: #74b9ff;
 	--lighttheme-6: #74b9ff;
-	--lighttheme-7: #65a0db;
+	--lighttheme-7: color-mix(in srgb, #00bfff 20%, #0d0d2b 80%);
 	--lighttheme-8: #373737;
 	--lighttheme-text: black;
 
@@ -69,13 +69,13 @@
 	/* Original colors */
 	--background-color: #141926;
 	--dark-background-color: #02050c;
-	--container-color: #373737;
+	--container-color: #262650;
 	--button-color: #2A2A2A;
 	--blue-accent: #4a4c63;
 	--red-accent: #553737;
 	--light-grey: #2793ff;
 	--near-black: #02050c;
-	--green-accent: #3f4f50;
+	--green-accent: #1e4e82;
 	--olive-accent: #535D32;
 	--regular-margin: 10px;
 	--director-margin: 15px 20px 0 0;
@@ -366,7 +366,6 @@ th {
 	height: 10px;
 	background: black;
 	position: relative;
-	float: left;
 }
 
 #mynetwork {
@@ -487,14 +486,6 @@ a {
 
 .directorContainer a:active {
 	color: var(--a-lighter-active);
-}
-.infoblob {
-  text-align: center; /* این خط برای وسط‌چین کردن اضافه شد */
-}
-
-.infoblob li {
-  display: block; /* این خط برای اطمینان از وسط‌چین شدن آیتم‌های لیست اضافه شد */
-  text-align: center; /* این خط مشکل چپ‌چین بودن را برطرف می‌کند */
 }
 
 .infoblob a:link {
@@ -1340,7 +1331,7 @@ hr {
 
 .directorsgrid .vidcon>.las {
 	color: black;
-	background: #999999;
+	background: #006dda;
 	width: 90%;
 }
 #activeShares>div{
@@ -2868,12 +2859,12 @@ span[data-action-type="stats-graphs-details-container"]>span{
     font-size: 120%;
     margin: 16px;
     animation: pulsate 2s ease-out infinite;
-	background-color: #ff8ae2 !important;
-    background: radial-gradient(#ff5ce7, #ff8ae2);
+	background-color: #da8aff !important;
+    background: radial-gradient(#ff5ce7, #e88aff);
     box-shadow: 1px 1px 1px;
 	color: black !important;
 	background-color: #e72659 !important;
-    background: radial-gradient(#fa4bce, #9c4185);
+    background: radial-gradient(#dd5dfd, #9c4185);
 	font-weight: bold !important;
     box-shadow: 0 0 31px 0px #8a1e6f;
     animation: pulsate 2s ease-out infinite;
@@ -4194,6 +4185,7 @@ label {
 	background-color: var(--container-color);
 	margin: 10px 0px 10px 10px;
 	padding: 10px;
+	border-radius: 10px;
 	max-width: min(100%, 1191px);
 }
 
@@ -4699,6 +4691,7 @@ div#guestFeeds {
 	background-color: var(--container-color);
 	padding: 5px 0 15px 20px;
 	display: inline-block;
+	border-radius: 10px;
 	margin: 0px var(--regular-margin) 80px var(--regular-margin);
 }
 
@@ -5992,9 +5985,9 @@ select {
 	border-radius: 4px;
 }
 .darktheme ul {
-	/*  background-color: var(--discord-grey-3);
+    background-color: var(--discord-grey-3);
 	border: 1px solid var(--discord-grey-8);
-	color: var(--discord-text);*/
+	color: var(--discord-text);
 }
 ul {
 	/*	 background-color: var(--lighttheme-1);
