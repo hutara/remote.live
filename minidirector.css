@@ -25,9 +25,7 @@ button[data-action-type='toggle-remote-speaker']{
 button[data-action-type='toggle-remote-display']{
 	display:none! important;
 }
-button[data-action-type='hide-guest']{
-	display:none! important;
-}
+
 button[data-action-type='create-timer']{
 	display:none! important;
 }
@@ -114,18 +112,18 @@ button[data-action-type='advanced-camera-settings']{
 	display:none! important;
 }
 .directorContainer {
-	display:none!important;
+	display:inline-block !important;
+}
+.directorContainer a:link {
+	color: var(--a-lighter-link);
 }
 :root {
 	--advanced-mode: inline;
 }
 
-#header{
-	display:none!important;
-}
 
 button[class="pull-right"]{
-	display:none! important;
+	display:block ! important;
 }
 
 div#guestFeeds {
