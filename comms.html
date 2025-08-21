@@ -2139,24 +2139,26 @@
 		group.title = "Activate this group; the view scene link will be updated";
 		
 		
-		<!-- var editButton = document.createElement("button"); -->
-		<!-- editButton.innerHTML = "🔧"; -->
-		<!-- editButton.classList.add("editButton"); -->
-		<!-- editButton.title = "Edit this group"; -->
-		<!-- editButton.dataset.state = "inactive"; -->
-		<!-- editButton.onclick = function(){ -->
-			
-			<!-- getById("saveAndClose").classList.remove("shake"); -->
-			<!-- if (this.dataset.state == "active"){ -->
-				<!-- setTimeout(function(){getById("saveAndClose").classList.add("shake");},10); -->
-			<!-- } -->
-			<!-- document.querySelectorAll(".editButton").forEach(ele=>{ -->
-				<!-- ele.dataset.state = "inactive"; -->
-			<!-- }); -->
-			<!-- this.dataset.state = "active"; -->
-			<!-- addgroup2(this);  -->
-			<!-- addOldElement(JSON.parse(this.parentNode.querySelector(".group").group)); -->
-		<!-- } -->
+		/*
+		var editButton = document.createElement("button");
+		editButton.innerHTML = "🔧";
+		editButton.classList.add("editButton");
+		editButton.title = "Edit this group";
+		editButton.dataset.state = "inactive";
+		editButton.onclick = function(){
+		    
+		    getById("saveAndClose").classList.remove("shake");
+		    if (this.dataset.state == "active"){
+		        setTimeout(function(){getById("saveAndClose").classList.add("shake");},10);
+		    }
+		    document.querySelectorAll(".editButton").forEach(ele=>{
+		        ele.dataset.state = "inactive";
+		    });
+		    this.dataset.state = "active";
+		    addgroup2(this); 
+		    addOldElement(JSON.parse(this.parentNode.querySelector(".group").group));
+		}
+		*/
 		
 		var hotkey = document.createElement("div");
 		hotkey.title = "Keyboard hotkey value. Drag elements around to change order.";
@@ -2360,4 +2362,5 @@
 	}
 </script>
 </body>
+
 </html>
